@@ -1,0 +1,21 @@
+{
+    "timestamp": "2026-10-27T08:59:21.645792",
+    "signals": [
+        "top_5_ig_mass",
+        "attribution_entropy",
+        "top1_top2_gap",
+        "detector_margin",
+        "seed_stability"
+    ],
+    "targets": {
+        "continuous": "top5_recall",
+        "binary": "top5_recall >= 0.8"
+    },
+    "protocol": {
+        "split_seed": 42,
+        "n_discovery_machines": 14,
+        "n_confirmation_machines": 14,
+        "bonferroni_p_threshold": 0.01,
+        "cluster_bootstrap_resamples": 10000
+    }
+}

@@ -1,0 +1,74 @@
+LEXICON (case-insensitive): significant, substantial, large, massive, extreme, strong, primary driver, dominant, far outside
+
+MAGNITUDE REGEXES:
+Sensors?[_\s]*(\d+)
+(?<![\w.])([+\-−]?\d+(?:\.\d+)?|±\s*\d+(?:\.\d+)?)\s*(?:std|σ)\b
+
+FUNCTION CODE:
+def rule_lexicon_assessment(explanation: str, lex: re.Pattern) -> list[dict]:
+    """Return lexicon hits attached to any stated sensor magnitude with |z| < 2."""
+    def lex_hits(text: str) -> list[str]:
+        hits = []
+        for match in lex.finditer(text):
+            prefix = text[max(0, match.start() - 16):match.start()]
+            if re.search(r"(?:\bno\s+|\bnot\s+|\bnon[-\s]?|\bwithout\s*)$", prefix, re.I):
+                continue
+            hits.append(match.group(0).lower())
+        return sorted(set(hits))
+
+    sensor_re = re.compile(r"Sensors?[_\s]*(\d+)", re.I)
+    z_re = re.compile(r"(?<![\w.])([+\-−]?\d+(?:\.\d+)?|±\s*\d+(?:\.\d+)?)\s*(?:std|σ)\b", re.I)
+    sensors = list(sensor_re.finditer(explanation))
+    mentions = []
+    for i, sensor_match in enumerate(sensors):
+        stop = sensors[i + 1].start() if i + 1 < len(sensors) else len(explanation)
+        tail = explanation[sensor_match.end():stop]
+        z_matches = list(z_re.finditer(tail))
+        # More than one magnitude after a sensor name is not attributable without
+        # inventing an ordering (for example, "Sensor_1 and Sensor_2 shifts +x and +y").
+        signed_values = re.findall(r"(?<![\w.])(?:[+\-−]|±)\s*\d+(?:\.\d+)?", tail)
+        pre_value = tail[:z_matches[0].start()] if z_matches else tail
+        unlabelled_sensor_list = bool(re.search(r"(?:,\s*\d+|\band\s+\d+)\b", pre_value, re.I))
+        if len(z_matches) != 1 or len(signed_values) > 1 or unlabelled_sensor_list:
+            continue
+        z_match = z_matches[0]
+        raw_z = z_match.group(1).replace("−", "-").replace("±", "").strip()
+        z_value = abs(float(raw_z)) if raw_z else 0.0
+        local = explanation[sensor_match.start():stop]
+        mentions.append({"sensor": int(sensor_match.group(1)), "z": z_value,
+                         "start": sensor_match.start(), "stop": stop,
+                         "z_end": sensor_match.end() + z_match.end(),
+                         "wording": local.strip(),
+                         "hits": lex_hits(local)})
+
+    # A predicate after a coordinated sensor list ("... and Sensor_34 show significant shifts")
+    # applies to the listed sensors. Propagate only that shared trailing predicate;
+    # otherwise keep descriptors within each sensor's own span.
+    shared = {}
+    boundaries = [m.end() for m in re.finditer(r"(?<!\d)[.!?](?:[\"”])?(?=\s|$)", explanation)]
+    sent_starts = [0] + boundaries
+    sent_ends = boundaries + [len(explanation)]
+    for sent_start, sent_end in zip(sent_starts, sent_ends):
+        sentence = explanation[sent_start:sent_end]
+        contained = [m for m in mentions if sent_start <= m["start"] < sent_end]
+        if len(contained) < 2:
+            continue
+        last = max(contained, key=lambda x: x["start"])
+        tail = explanation[last["z_end"]:sent_end]
+        tail_hits = lex_hits(tail)
+        if tail_hits and re.search(r"\b(?:show|shows|exhibit|exhibits|indicate|indicates|represent|are)\b", tail, re.I):
+            for mention in contained:
+                shared[(mention["sensor"], mention["start"])] = (tail_hits, sentence.strip())
+
+    findings = []
+    for mention in mentions:
+        if mention["z"] >= 2:
+            continue
+        hits = mention["hits"]
+        wording = mention["wording"]
+        if not hits and (mention["sensor"], mention["start"]) in shared:
+            hits, wording = shared[(mention["sensor"], mention["start"])]
+        if hits:
+            findings.append({"sensor": mention["sensor"], "z": mention["z"],
+                             "wording": wording, "lexicon_hits": "; ".join(hits)})
+    return findings

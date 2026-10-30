@@ -1,0 +1,70 @@
+{
+  "actual": {
+    "individual": [
+      77,
+      80
+    ],
+    "aggregate": [
+      52,
+      80
+    ],
+    "evidential_lenient": [
+      74,
+      75
+    ],
+    "evidential_strict": [
+      60,
+      75
+    ],
+    "controls_lenient": [
+      59,
+      12,
+      1,
+      0
+    ],
+    "controls_strict": [
+      57,
+      0,
+      15,
+      0
+    ]
+  },
+  "expected": {
+    "individual": [
+      77,
+      80
+    ],
+    "aggregate": [
+      52,
+      80
+    ],
+    "evidential_lenient": [
+      74,
+      75
+    ],
+    "evidential_strict": [
+      60,
+      75
+    ],
+    "controls_lenient": [
+      59,
+      12,
+      1,
+      0
+    ],
+    "controls_strict": [
+      57,
+      0,
+      15,
+      0
+    ]
+  },
+  "passed": true,
+  "counts": {
+    "pool": 82,
+    "row_swap_packets": 82,
+    "perturbed_packets": 77,
+    "control_packets": 77,
+    "paired_controls": 72
+  }
+}

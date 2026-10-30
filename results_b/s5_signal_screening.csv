@@ -1,0 +1,7 @@
+phase,signal,n_samples,spearman_rho,p_value,auroc,bonferroni_qualifies,confirmed,spearman_95ci
+discovery,top5_mass,174,0.2032,0.0071771218374380155,0.6233,True,False,
+discovery,entropy,174,-0.1555,0.04047016858985451,0.5729,False,False,
+discovery,top1_top2_gap,174,0.1546,0.04162694774882619,0.5485,False,False,
+discovery,detector_margin,174,0.1396,0.06611956787147975,0.5992,False,False,
+discovery,seed_stability,174,0.0552,0.4694517202283008,0.5559,False,False,
+confirmation,top5_mass,153,-0.0502,0.5374611848770738,0.5168,True,False,"[-0.0875, 0.3932]"

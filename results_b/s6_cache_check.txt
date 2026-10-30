@@ -1,0 +1,6 @@
+GATE G6 TRIGGERED
+Timestamp: 2026-10-27T09:02:16.559346
+Model: meta/llama-3.1-70b-instruct
+Endpoint: https://integrate.api.nvidia.com/v1
+Reason: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'meta/llama-3.1-70b-instruct' has reached its end of life on 2026-08-26T09:00:00Z and is no longer available."}
+Action: STOP S6 per protocol Rule S6.4. Preserving Stages S0-S5.

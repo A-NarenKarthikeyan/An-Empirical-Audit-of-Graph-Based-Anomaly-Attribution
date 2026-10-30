@@ -1,0 +1,267 @@
+{
+  "flagged": 21,
+  "evaluated": 82,
+  "share": 0.25609756097560976,
+  "wilson_95_low": 0.1740357615326263,
+  "wilson_95_high": 0.35998893295034956,
+  "examples": [
+    {
+      "audit_id": 29,
+      "segment_global_id": 9,
+      "findings": [
+        {
+          "sensor": 13,
+          "z": 1.25,
+          "wording": "Sensor_13 (Z-Score Shift = +1.25 std), which exhibit significant deviations from their normal historical baselines, indicating a high likelihood of these sensors being the root causes of the anomaly.",
+          "lexicon_hits": "significant"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 21,
+      "findings": [
+        {
+          "sensor": 12,
+          "z": 0.44,
+          "wording": "Sensor_12, as they exhibit significant z-score shifts of +0.44 std, indicating substantial deviations from their normal historical baselines. These deviations are the primary drivers of the anomaly.",
+          "lexicon_hits": "primary drivers; significant; substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 11,
+      "segment_global_id": 81,
+      "findings": [
+        {
+          "sensor": 26,
+          "z": 0.88,
+          "wording": "Sensor_26 (+0.88 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 115,
+      "findings": [
+        {
+          "sensor": 34,
+          "z": 1.09,
+          "wording": "Sensor_34 (+1.09 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 2,
+      "segment_global_id": 122,
+      "findings": [
+        {
+          "sensor": 13,
+          "z": 1.24,
+          "wording": "Sensor_13 (+1.24 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 13,
+      "segment_global_id": 135,
+      "findings": [
+        {
+          "sensor": 23,
+          "z": 1.06,
+          "wording": "Sensor_23 (+1.06 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 20,
+      "segment_global_id": 142,
+      "findings": [
+        {
+          "sensor": 25,
+          "z": 1.23,
+          "wording": "Sensor_25 (+1.23 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 156,
+      "findings": [
+        {
+          "sensor": 10,
+          "z": 0.73,
+          "wording": "Sensor_10 (Z-Score Shift = +0.73 std) are identified as the root causes of the anomaly due to their significant deviations from their normal historical baselines, with",
+          "lexicon_hits": "significant"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 166,
+      "findings": [
+        {
+          "sensor": 14,
+          "z": 0.56,
+          "wording": "Sensor_14 (+0.56 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 186,
+      "findings": [
+        {
+          "sensor": 23,
+          "z": 0.85,
+          "wording": "Sensor_23 (Z-Score Shift = +0.85 std) due to their significant deviations from their respective normal historical baselines, indicating a substantial shift in their observed values.",
+          "lexicon_hits": "significant; substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 23,
+      "segment_global_id": 191,
+      "findings": [
+        {
+          "sensor": 14,
+          "z": 0.36,
+          "wording": "Sensor_14 (+0.36 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 193,
+      "findings": [
+        {
+          "sensor": 1,
+          "z": 1.6,
+          "wording": "Sensor_1 (+1.60 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 208,
+      "findings": [
+        {
+          "sensor": 15,
+          "z": 0.95,
+          "wording": "Sensor_15 (+0.95 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 15,
+      "segment_global_id": 213,
+      "findings": [
+        {
+          "sensor": 1,
+          "z": 0.77,
+          "wording": "Sensor_1 has a z-score shift of +0.77 std, indicating an increase in its observed value. These deviations from their normal historical baselines are the primary drivers of the anomaly.",
+          "lexicon_hits": "primary drivers"
+        }
+      ]
+    },
+    {
+      "audit_id": 25,
+      "segment_global_id": 226,
+      "findings": [
+        {
+          "sensor": 32,
+          "z": 1.82,
+          "wording": "Sensor_32 is the primary root cause of the anomaly due to its significant Z-Score Shift of -1.82 std, indicating a substantial deviation from its normal historical baseline.",
+          "lexicon_hits": "significant; substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 287,
+      "findings": [
+        {
+          "sensor": 33,
+          "z": 1.69,
+          "wording": "Sensor_33 (+1.69 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 288,
+      "findings": [
+        {
+          "sensor": 33,
+          "z": 1.03,
+          "wording": "Sensor_33 (+1.03 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": null,
+      "segment_global_id": 295,
+      "findings": [
+        {
+          "sensor": 26,
+          "z": 0.17,
+          "wording": "Sensor_26 is identified as a root cause due to its observed Z-Score Shift of +0.17 std, indicating a significant deviation from its normal historical baseline.",
+          "lexicon_hits": "significant"
+        }
+      ]
+    },
+    {
+      "audit_id": 9,
+      "segment_global_id": 313,
+      "findings": [
+        {
+          "sensor": 30,
+          "z": 0.02,
+          "wording": "Sensor_30 is the root cause of the anomaly due to its significant Z-Score Shift of -0.02 std, indicating a deviation from its normal historical baseline.",
+          "lexicon_hits": "significant"
+        },
+        {
+          "sensor": 10,
+          "z": 1.29,
+          "wording": "Sensor_10 is also a root cause as it shows a substantial Z-Score Shift of +1.29 std, indicating a significant increase from its normal historical baseline.",
+          "lexicon_hits": "significant; substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 4,
+      "segment_global_id": 314,
+      "findings": [
+        {
+          "sensor": 34,
+          "z": 1.54,
+          "wording": "Sensor_34 (+1.54 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    },
+    {
+      "audit_id": 12,
+      "segment_global_id": 324,
+      "findings": [
+        {
+          "sensor": 26,
+          "z": 1.82,
+          "wording": "Sensor_26 (-1.82 std), indicating substantial deviations from their normal historical baselines.",
+          "lexicon_hits": "substantial"
+        }
+      ]
+    }
+  ]
+}

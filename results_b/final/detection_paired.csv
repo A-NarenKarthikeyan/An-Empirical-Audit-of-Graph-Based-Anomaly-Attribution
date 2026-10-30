@@ -1,0 +1,13 @@
+comparison,metric,n_machines,mean_diff,ci_lower_95,ci_upper_95,ci_95_str
+GAT-6D minus Max-z,f1,19,0.0283,-0.1408,0.202,"[-0.1408, +0.2020]"
+GAT-6D minus Max-z,auroc,19,-0.0534,-0.1567,0.0366,"[-0.1567, +0.0366]"
+GAT-6D minus Max-z,auprc,19,0.0208,-0.1387,0.1866,"[-0.1387, +0.1866]"
+GAT-6D minus Max-z,oracle_f1,19,-0.0123,-0.1505,0.1303,"[-0.1505, +0.1303]"
+GAT-6D minus Isolation Forest,f1,19,0.0659,-0.1139,0.2653,"[-0.1139, +0.2653]"
+GAT-6D minus Isolation Forest,auroc,19,-0.0555,-0.1594,0.0219,"[-0.1594, +0.0219]"
+GAT-6D minus Isolation Forest,auprc,19,0.1576,-0.0054,0.3247,"[-0.0054, +0.3247]"
+GAT-6D minus Isolation Forest,oracle_f1,19,0.1042,-0.0402,0.2406,"[-0.0402, +0.2406]"
+GAT-6D minus GAT-2D,f1,19,0.0454,-0.1299,0.2179,"[-0.1299, +0.2179]"
+GAT-6D minus GAT-2D,auroc,19,-0.0039,-0.0659,0.0627,"[-0.0659, +0.0627]"
+GAT-6D minus GAT-2D,auprc,19,0.0853,-0.0228,0.2249,"[-0.0228, +0.2249]"
+GAT-6D minus GAT-2D,oracle_f1,19,0.091,-0.017,0.2243,"[-0.0170, +0.2243]"

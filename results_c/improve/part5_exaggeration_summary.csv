@@ -1,0 +1,4 @@
+strict_scorer_verdict,n_responses,overstated_n,overstated_share_pct,wilson95_lower_pct,wilson95_upper_pct
+all,80,11,13.75,7.854714324339109,22.967100066986607
+False,78,11,14.102564102564102,8.061044056387122,23.513978179360162
+True,2,0,0.0,0.0,65.76197724933469

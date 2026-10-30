@@ -1,0 +1,4 @@
+COMMON GATE segments=327 machines=28 IG_segments=327
+COMMON GATE IG machine-macro top1=83.89 top5=53.93 legacy=62.85 (targets 83.89/53.93/62.84; tolerance 0.05)
+COMMON GATE max|z| machine-macro top5=59.55 (target 59.55)
+COMMON GATE PASSED

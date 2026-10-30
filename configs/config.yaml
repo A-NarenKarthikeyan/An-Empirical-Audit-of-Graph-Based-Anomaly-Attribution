@@ -1,0 +1,25 @@
+# Time-Series Anomaly Attribution Pipeline Configuration
+dataset_name: "SMD"  # Options: SMD, MSL, SMAP, PSM
+dataset_path: "data/raw"
+machine_id: "machine-1-1"
+window_size: 100
+window_stride: 1
+edge_corr_threshold: 0.6
+gnn_hidden_dim: 64
+gnn_num_heads: 4
+gnn_num_layers: 2
+batch_size: 64
+learning_rate: 0.001
+weight_decay: 0.0001
+epochs: 20
+patience: 10
+device: "cpu"
+conformal_alpha: 0.10
+recall_threshold: 0.8
+fine_window_margin: 15
+explanation_top_k: 5
+min_topk_mass: 0.7
+min_sensor_std: 0.001
+nim_model_name: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+nim_temperature: 0.2
+faithfulness_threshold: 0.3

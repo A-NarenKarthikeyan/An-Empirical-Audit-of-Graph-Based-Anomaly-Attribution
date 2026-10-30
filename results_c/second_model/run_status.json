@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "cached_responses": 236,
+  "failed_calls": 0,
+  "not_attempted": 0,
+  "planned_calls": 236,
+  "model_id": "meta/llama-3.2-11b-vision-instruct"
+}

@@ -1,0 +1,68 @@
+﻿model_id,http_status,seconds,response_text,error
+01-ai/yi-large,404,0.283,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+adept/fuyu-8b,404,0.210,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+ai21labs/jamba-1.5-large-instruct,404,0.252,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+aisingapore/sea-lion-7b-instruct,404,0.227,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+bigcode/starcoder2-15b,404,0.203,,"HTTP 404 Not Found: 404 page not found
+"
+databricks/dbrx-instruct,404,0.188,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+deepseek-ai/deepseek-coder-6.7b-instruct,404,0.217,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+deepseek-ai/deepseek-v4.1-flash,,30.143,,TimeoutError: The read operation timed out
+google/codegemma-1.1-7b,404,0.228,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+google/codegemma-7b,404,0.213,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+google/gemma-2b,404,0.320,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+google/gemma-3-12b-it,404,0.211,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+google/gemma-3-4b-it,404,0.224,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+google/gemma-4-31b-it,,30.152,,TimeoutError: The read operation timed out
+google/recurrentgemma-2b,404,0.250,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+ibm/granite-3.0-3b-a800m-instruct,404,0.218,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+ibm/granite-3.0-8b-instruct,404,0.220,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+ibm/granite-34b-code-instruct,404,0.234,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+ibm/granite-8b-code-instruct,404,0.224,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+meta/codellama-70b,404,0.204,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+meta/llama-3.2-90b-vision-instruct,,30.128,,TimeoutError: The read operation timed out
+meta/llama2-70b,404,0.230,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+meta/muse-glimmer-30b,,30.176,,TimeoutError: The read operation timed out
+microsoft/kosmos-2,404,0.257,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+microsoft/phi-3-vision-128k-instruct,404,0.213,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+microsoft/phi-3.5-moe-instruct,404,0.214,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+minimaxai/minimax-m3.1-flash,,30.141,,TimeoutError: The read operation timed out
+mistralai/codestral-22b-instruct-v0.1,404,0.247,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+mistralai/mistral-7b-instruct-v0.3,404,0.206,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+mistralai/mistral-large,404,0.213,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+mistralai/mistral-large-2-instruct,404,0.217,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+mistralai/mixtral-8x22b-v0.1,404,0.233,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+moonshotai/kimi-k2.6,404,0.207,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nv-mistralai/mistral-nemo-12b-instruct,404,0.270,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/cosmos-reason2-8b,404,0.239,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/llama-3.1-nemotron-51b-instruct,404,0.227,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/llama-3.1-nemotron-70b-instruct,404,0.255,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/llama-3.1-nemotron-ultra-253b-v1,404,0.207,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/llama3-chatqa-1.5-70b,404,0.218,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/mistral-nemo-minitron-8b-8k-instruct,404,0.228,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/nemotron-3-super-120b-a12b,404,0.218,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/nemotron-3-ultra-550b-a55b,200,3.955,OK,
+nvidia/nemotron-3.5-bolt-e4b,200,0.409,OK,
+nvidia/nemotron-3.5-lightning-30b-a3b,200,0.753,"{""id"":""chatcmpl-[request-id-redacted]"",""choices"":[{""index"":0,""message"":{""content"":null,""role"":""assistant"",""reasoning_content"":""Here's a thinking process:\n\n1.  **Analyze User Input:** The user says \""Reply with the word OK.\""\n2.  **Ident""},""finish_reason"":""length"",""logprobs"":null}],""created"":1793274068,""model"":""nvidia/nemotron-3.5-lightning-30b-a3b"",""service_tier"":null,""system_fingerprint"":null,""object"":""chat.completion"",""usage"":{""prompt_tokens"":22,""completion_tokens"":30,""total_tokens"":52,""prompt_tokens_details"":{""audio_tokens"":null,""cached_tokens"":0},""completion_tokens_details"":{""accepted_prediction_tokens"":null,""audio_tokens"":null,""reasoning_tokens"":30,""rejected_prediction_tokens"":null}}}",
+nvidia/nemotron-3.5-super-vl-120b-a12b,200,0.551,"{""id"":""chatcmpl-[request-id-redacted]"",""choices"":[{""index"":0,""message"":{""content"":null,""role"":""assistant"",""reasoning_content"":""The user wants me to reply with the word \""OK\"". This is a simple, direct instruction. I should just output \""OK\"" without any additional""},""finish_reason"":""length"",""logprobs"":null}],""created"":1793274068,""model"":""private/nvidia/nemotron-3.5-super-120b-a12b"",""service_tier"":null,""system_fingerprint"":null,""object"":""chat.completion"",""usage"":{""prompt_tokens"":22,""completion_tokens"":30,""total_tokens"":52,""prompt_tokens_details"":{""audio_tokens"":null,""cached_tokens"":0},""completion_tokens_details"":{""accepted_prediction_tokens"":null,""audio_tokens"":null,""reasoning_tokens"":30,""rejected_prediction_tokens"":null}}}",
+nvidia/nemotron-4-340b-instruct,404,0.225,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/nemotron-nano-3-30b-a3b,404,0.215,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/neva-22b,404,0.220,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+nvidia/vila,404,0.220,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+openai/gpt-oss-20b,200,5.425,OK,
+poolside/laguna-xs-2.1,503,0.407,,"HTTP 503 Service Unavailable: {""error"":{""message"":""ResourceExhausted: Worker local total request limit reached (100/32)"",""type"":""Service Unavailable"",""code"":503}}"
+stepfun-ai/step-5-preview,,30.166,,TimeoutError: The read operation timed out
+writer/palmyra-creative-122b,404,0.291,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+writer/palmyra-fin-70b-32k,404,0.252,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+writer/palmyra-med-70b,404,0.225,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+writer/palmyra-med-70b-32k,404,0.281,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+z-ai/glm-5.3-flash,,30.168,,TimeoutError: The read operation timed out
+zyphra/zamba2-7b-instruct,404,0.241,,"HTTP 404 Not Found: {""status"":404,""title"":""Not Found"",""detail"":""Function '[request-id-redacted]': Not found for account '[account-id-redacted]'""}"
+model_id,http_status,seconds,response_text,error
+deepseek-ai/deepseek-v4.1-flash,,180.238,,TimeoutError: The read operation timed out
+google/gemma-4-31b-it,,180.162,,TimeoutError: The read operation timed out
+meta/llama-3.2-90b-vision-instruct,200,60.261,OK,
+meta/muse-glimmer-30b,200,176.921,"{""id"":""9e117b26da3abadc"",""choices"":[{""index"":0,""message"":{""content"":null,""role"":""assistant"",""reasoning_content"":""Reply with the word OK.\n\nWe need to reply with the word OK. Probably just \""OK\"". The instruction says reply with the word""},""finish_reason"":""length"",""logprobs"":null}],""created"":1793275065,""model"":""meta/muse-glimmer-30b"",""service_tier"":null,""system_fingerprint"":null,""object"":""chat.completion"",""usage"":{""prompt_tokens"":62,""completion_tokens"":30,""total_tokens"":92,""prompt_tokens_details"":{""audio_tokens"":null,""cached_tokens"":0}}}",
+minimaxai/minimax-m3.1-flash,200,97.508,OK,
+stepfun-ai/step-5-preview,,180.174,,TimeoutError: The read operation timed out
+z-ai/glm-5.3-flash,,180.160,,TimeoutError: The read operation timed out

@@ -1,0 +1,1365 @@
+[
+    {
+        "segment_global_id": 1,
+        "machine": "machine-1-1",
+        "segment_index": 1,
+        "start": 15849,
+        "end": 16368,
+        "gt_dimensions": [
+            1,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 2,
+        "machine": "machine-1-1",
+        "segment_index": 2,
+        "start": 16963,
+        "end": 17517,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 6,
+        "machine": "machine-1-1",
+        "segment_index": 6,
+        "start": 24679,
+        "end": 24682,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 9,
+        "machine": "machine-1-2",
+        "segment_index": 1,
+        "start": 4629,
+        "end": 4688,
+        "gt_dimensions": [
+            9,
+            10,
+            11,
+            13,
+            15,
+            18
+        ]
+    },
+    {
+        "segment_global_id": 10,
+        "machine": "machine-1-2",
+        "segment_index": 2,
+        "start": 5486,
+        "end": 5491,
+        "gt_dimensions": [
+            18
+        ]
+    },
+    {
+        "segment_global_id": 14,
+        "machine": "machine-1-2",
+        "segment_index": 6,
+        "start": 15925,
+        "end": 15973,
+        "gt_dimensions": [
+            6,
+            7,
+            10,
+            11,
+            13,
+            14,
+            20,
+            30
+        ]
+    },
+    {
+        "segment_global_id": 19,
+        "machine": "machine-1-3",
+        "segment_index": 1,
+        "start": 392,
+        "end": 416,
+        "gt_dimensions": [
+            12,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 21,
+        "machine": "machine-1-3",
+        "segment_index": 3,
+        "start": 4872,
+        "end": 4875,
+        "gt_dimensions": [
+            12,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 29,
+        "machine": "machine-1-3",
+        "segment_index": 11,
+        "start": 22923,
+        "end": 23019,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 34,
+        "machine": "machine-1-4",
+        "segment_index": 5,
+        "start": 13355,
+        "end": 13376,
+        "gt_dimensions": [
+            12,
+            15,
+            16
+        ]
+    },
+    {
+        "segment_global_id": 37,
+        "machine": "machine-1-4",
+        "segment_index": 8,
+        "start": 17630,
+        "end": 17718,
+        "gt_dimensions": [
+            12,
+            15,
+            30,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 40,
+        "machine": "machine-1-4",
+        "segment_index": 11,
+        "start": 22970,
+        "end": 23016,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 42,
+        "machine": "machine-1-5",
+        "segment_index": 1,
+        "start": 10620,
+        "end": 10637,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            24,
+            26,
+            32
+        ]
+    },
+    {
+        "segment_global_id": 43,
+        "machine": "machine-1-5",
+        "segment_index": 2,
+        "start": 11785,
+        "end": 11816,
+        "gt_dimensions": [
+            9,
+            23,
+            24,
+            25,
+            26,
+            28,
+            31,
+            32,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 46,
+        "machine": "machine-1-5",
+        "segment_index": 5,
+        "start": 14520,
+        "end": 14531,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            10,
+            11,
+            19,
+            21,
+            23,
+            24,
+            25,
+            26,
+            31,
+            32,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 54,
+        "machine": "machine-1-6",
+        "segment_index": 6,
+        "start": 4647,
+        "end": 5045,
+        "gt_dimensions": [
+            5,
+            6,
+            9,
+            10,
+            11,
+            13,
+            17,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 58,
+        "machine": "machine-1-6",
+        "segment_index": 10,
+        "start": 6022,
+        "end": 6027,
+        "gt_dimensions": [
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 75,
+        "machine": "machine-1-6",
+        "segment_index": 27,
+        "start": 17931,
+        "end": 17939,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            19,
+            20,
+            21,
+            22,
+            23,
+            28,
+            30,
+            31,
+            32
+        ]
+    },
+    {
+        "segment_global_id": 81,
+        "machine": "machine-1-7",
+        "segment_index": 3,
+        "start": 5849,
+        "end": 5940,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            13,
+            15,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 83,
+        "machine": "machine-1-7",
+        "segment_index": 5,
+        "start": 7099,
+        "end": 8000,
+        "gt_dimensions": [
+            1,
+            9,
+            12,
+            13,
+            14,
+            15,
+            17,
+            18
+        ]
+    },
+    {
+        "segment_global_id": 86,
+        "machine": "machine-1-7",
+        "segment_index": 8,
+        "start": 13799,
+        "end": 13825,
+        "gt_dimensions": [
+            9,
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    {
+        "segment_global_id": 93,
+        "machine": "machine-1-8",
+        "segment_index": 2,
+        "start": 2105,
+        "end": 2171,
+        "gt_dimensions": [
+            1,
+            9,
+            10,
+            11,
+            12
+        ]
+    },
+    {
+        "segment_global_id": 94,
+        "machine": "machine-1-8",
+        "segment_index": 3,
+        "start": 2725,
+        "end": 2728,
+        "gt_dimensions": [
+            9,
+            10,
+            13,
+            14
+        ]
+    },
+    {
+        "segment_global_id": 97,
+        "machine": "machine-1-8",
+        "segment_index": 6,
+        "start": 4589,
+        "end": 4599,
+        "gt_dimensions": [
+            6,
+            7,
+            11,
+            16
+        ]
+    },
+    {
+        "segment_global_id": 115,
+        "machine": "machine-2-1",
+        "segment_index": 4,
+        "start": 9779,
+        "end": 9805,
+        "gt_dimensions": [
+            5,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 117,
+        "machine": "machine-2-1",
+        "segment_index": 6,
+        "start": 16136,
+        "end": 16588,
+        "gt_dimensions": [
+            9,
+            10,
+            24,
+            26
+        ]
+    },
+    {
+        "segment_global_id": 122,
+        "machine": "machine-2-1",
+        "segment_index": 11,
+        "start": 20891,
+        "end": 20912,
+        "gt_dimensions": [
+            10,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 130,
+        "machine": "machine-2-2",
+        "segment_index": 6,
+        "start": 20820,
+        "end": 20823,
+        "gt_dimensions": [
+            10,
+            11,
+            12,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 134,
+        "machine": "machine-2-2",
+        "segment_index": 10,
+        "start": 22260,
+        "end": 22263,
+        "gt_dimensions": [
+            6,
+            10,
+            11,
+            12,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 135,
+        "machine": "machine-2-2",
+        "segment_index": 11,
+        "start": 23099,
+        "end": 23299,
+        "gt_dimensions": [
+            9,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 137,
+        "machine": "machine-2-3",
+        "segment_index": 2,
+        "start": 5739,
+        "end": 5745,
+        "gt_dimensions": [
+            9,
+            10,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 139,
+        "machine": "machine-2-3",
+        "segment_index": 4,
+        "start": 7910,
+        "end": 8010,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            31,
+            32,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 142,
+        "machine": "machine-2-3",
+        "segment_index": 7,
+        "start": 15070,
+        "end": 15151,
+        "gt_dimensions": [
+            1,
+            6,
+            7,
+            20,
+            21,
+            22,
+            23,
+            25,
+            28,
+            31,
+            32
+        ]
+    },
+    {
+        "segment_global_id": 147,
+        "machine": "machine-2-4",
+        "segment_index": 2,
+        "start": 2098,
+        "end": 2102,
+        "gt_dimensions": [
+            13,
+            14
+        ]
+    },
+    {
+        "segment_global_id": 156,
+        "machine": "machine-2-4",
+        "segment_index": 11,
+        "start": 10736,
+        "end": 10739,
+        "gt_dimensions": [
+            9,
+            13,
+            14
+        ]
+    },
+    {
+        "segment_global_id": 165,
+        "machine": "machine-2-4",
+        "segment_index": 20,
+        "start": 22284,
+        "end": 22294,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            33
+        ]
+    },
+    {
+        "segment_global_id": 166,
+        "machine": "machine-2-5",
+        "segment_index": 1,
+        "start": 2585,
+        "end": 2588,
+        "gt_dimensions": [
+            10,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 183,
+        "machine": "machine-2-5",
+        "segment_index": 18,
+        "start": 19405,
+        "end": 19413,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 186,
+        "machine": "machine-2-5",
+        "segment_index": 21,
+        "start": 23120,
+        "end": 23141,
+        "gt_dimensions": [
+            1,
+            23,
+            25
+        ]
+    },
+    {
+        "segment_global_id": 191,
+        "machine": "machine-2-6",
+        "segment_index": 5,
+        "start": 16720,
+        "end": 16743,
+        "gt_dimensions": [
+            1,
+            9,
+            14
+        ]
+    },
+    {
+        "segment_global_id": 192,
+        "machine": "machine-2-6",
+        "segment_index": 6,
+        "start": 18122,
+        "end": 18125,
+        "gt_dimensions": [
+            10,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 193,
+        "machine": "machine-2-6",
+        "segment_index": 7,
+        "start": 20620,
+        "end": 20738,
+        "gt_dimensions": [
+            10,
+            12,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 208,
+        "machine": "machine-2-7",
+        "segment_index": 14,
+        "start": 16534,
+        "end": 16557,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 209,
+        "machine": "machine-2-7",
+        "segment_index": 15,
+        "start": 17978,
+        "end": 17981,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 213,
+        "machine": "machine-2-7",
+        "segment_index": 19,
+        "start": 22291,
+        "end": 22296,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 215,
+        "machine": "machine-2-8",
+        "segment_index": 1,
+        "start": 17580,
+        "end": 17741,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 220,
+        "machine": "machine-2-9",
+        "segment_index": 5,
+        "start": 17914,
+        "end": 18096,
+        "gt_dimensions": [
+            11,
+            12,
+            13,
+            15,
+            16
+        ]
+    },
+    {
+        "segment_global_id": 222,
+        "machine": "machine-2-9",
+        "segment_index": 7,
+        "start": 20615,
+        "end": 20845,
+        "gt_dimensions": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    {
+        "segment_global_id": 223,
+        "machine": "machine-2-9",
+        "segment_index": 8,
+        "start": 24475,
+        "end": 24478,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 226,
+        "machine": "machine-3-1",
+        "segment_index": 1,
+        "start": 1209,
+        "end": 1240,
+        "gt_dimensions": [
+            1,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            31,
+            32
+        ]
+    },
+    {
+        "segment_global_id": 227,
+        "machine": "machine-3-1",
+        "segment_index": 2,
+        "start": 5399,
+        "end": 5530,
+        "gt_dimensions": [
+            27,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 228,
+        "machine": "machine-3-1",
+        "segment_index": 3,
+        "start": 10696,
+        "end": 10717,
+        "gt_dimensions": [
+            1,
+            2,
+            19,
+            20,
+            21,
+            22,
+            28,
+            31
+        ]
+    },
+    {
+        "segment_global_id": 233,
+        "machine": "machine-3-10",
+        "segment_index": 4,
+        "start": 3596,
+        "end": 3599,
+        "gt_dimensions": [
+            9,
+            12,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 237,
+        "machine": "machine-3-10",
+        "segment_index": 8,
+        "start": 10772,
+        "end": 10782,
+        "gt_dimensions": [
+            9,
+            12,
+            13,
+            14
+        ]
+    },
+    {
+        "segment_global_id": 239,
+        "machine": "machine-3-10",
+        "segment_index": 10,
+        "start": 13148,
+        "end": 13441,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            11,
+            14,
+            16,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            31,
+            33,
+            34,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 243,
+        "machine": "machine-3-11",
+        "segment_index": 1,
+        "start": 21230,
+        "end": 21296,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            16,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            28,
+            30,
+            31,
+            32,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 244,
+        "machine": "machine-3-11",
+        "segment_index": 2,
+        "start": 27825,
+        "end": 27951,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            28,
+            30,
+            31,
+            32,
+            34,
+            35,
+            36,
+            37
+        ]
+    },
+    {
+        "segment_global_id": 245,
+        "machine": "machine-3-11",
+        "segment_index": 3,
+        "start": 27995,
+        "end": 28001,
+        "gt_dimensions": [
+            10,
+            11
+        ]
+    },
+    {
+        "segment_global_id": 246,
+        "machine": "machine-3-2",
+        "segment_index": 1,
+        "start": 135,
+        "end": 161,
+        "gt_dimensions": [
+            10,
+            12,
+            13,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 247,
+        "machine": "machine-3-2",
+        "segment_index": 2,
+        "start": 3080,
+        "end": 3917,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            17
+        ]
+    },
+    {
+        "segment_global_id": 250,
+        "machine": "machine-3-2",
+        "segment_index": 5,
+        "start": 15577,
+        "end": 15582,
+        "gt_dimensions": [
+            9,
+            13,
+            14,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 262,
+        "machine": "machine-3-3",
+        "segment_index": 8,
+        "start": 5449,
+        "end": 5453,
+        "gt_dimensions": [
+            12,
+            13,
+            15,
+            16,
+            17
+        ]
+    },
+    {
+        "segment_global_id": 268,
+        "machine": "machine-3-3",
+        "segment_index": 14,
+        "start": 12259,
+        "end": 12262,
+        "gt_dimensions": [
+            10,
+            11,
+            12,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 272,
+        "machine": "machine-3-3",
+        "segment_index": 18,
+        "start": 15139,
+        "end": 15142,
+        "gt_dimensions": [
+            10,
+            11,
+            12,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 286,
+        "machine": "machine-3-4",
+        "segment_index": 4,
+        "start": 10963,
+        "end": 10969,
+        "gt_dimensions": [
+            30,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 287,
+        "machine": "machine-3-4",
+        "segment_index": 5,
+        "start": 11565,
+        "end": 11569,
+        "gt_dimensions": [
+            24,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 288,
+        "machine": "machine-3-4",
+        "segment_index": 6,
+        "start": 13699,
+        "end": 13709,
+        "gt_dimensions": [
+            24,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 295,
+        "machine": "machine-3-5",
+        "segment_index": 5,
+        "start": 14755,
+        "end": 14758,
+        "gt_dimensions": [
+            30
+        ]
+    },
+    {
+        "segment_global_id": 296,
+        "machine": "machine-3-5",
+        "segment_index": 6,
+        "start": 14909,
+        "end": 14912,
+        "gt_dimensions": [
+            30
+        ]
+    },
+    {
+        "segment_global_id": 299,
+        "machine": "machine-3-5",
+        "segment_index": 9,
+        "start": 18426,
+        "end": 18430,
+        "gt_dimensions": [
+            17
+        ]
+    },
+    {
+        "segment_global_id": 303,
+        "machine": "machine-3-6",
+        "segment_index": 2,
+        "start": 8177,
+        "end": 8211,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            34,
+            33
+        ]
+    },
+    {
+        "segment_global_id": 305,
+        "machine": "machine-3-6",
+        "segment_index": 4,
+        "start": 15633,
+        "end": 15863,
+        "gt_dimensions": [
+            1,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    {
+        "segment_global_id": 310,
+        "machine": "machine-3-6",
+        "segment_index": 9,
+        "start": 24503,
+        "end": 24506,
+        "gt_dimensions": [
+            1,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "segment_global_id": 313,
+        "machine": "machine-3-7",
+        "segment_index": 1,
+        "start": 10609,
+        "end": 10644,
+        "gt_dimensions": [
+            1,
+            19,
+            20,
+            21,
+            22,
+            28,
+            30,
+            31,
+            32,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 314,
+        "machine": "machine-3-7",
+        "segment_index": 2,
+        "start": 11491,
+        "end": 11554,
+        "gt_dimensions": [
+            1,
+            19,
+            20,
+            21,
+            22,
+            24,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ]
+    },
+    {
+        "segment_global_id": 317,
+        "machine": "machine-3-7",
+        "segment_index": 5,
+        "start": 24579,
+        "end": 24586,
+        "gt_dimensions": [
+            11
+        ]
+    },
+    {
+        "segment_global_id": 319,
+        "machine": "machine-3-8",
+        "segment_index": 2,
+        "start": 15941,
+        "end": 16514,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            19,
+            20,
+            21,
+            22,
+            28,
+            30,
+            31
+        ]
+    },
+    {
+        "segment_global_id": 322,
+        "machine": "machine-3-8",
+        "segment_index": 5,
+        "start": 23478,
+        "end": 23781,
+        "gt_dimensions": [
+            9,
+            10,
+            13,
+            14,
+            30
+        ]
+    },
+    {
+        "segment_global_id": 323,
+        "machine": "machine-3-8",
+        "segment_index": 6,
+        "start": 28253,
+        "end": 28270,
+        "gt_dimensions": [
+            10,
+            12,
+            13
+        ]
+    },
+    {
+        "segment_global_id": 324,
+        "machine": "machine-3-9",
+        "segment_index": 1,
+        "start": 1199,
+        "end": 1230,
+        "gt_dimensions": [
+            1,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            31,
+            32
+        ]
+    },
+    {
+        "segment_global_id": 325,
+        "machine": "machine-3-9",
+        "segment_index": 2,
+        "start": 5361,
+        "end": 5487,
+        "gt_dimensions": [
+            27,
+            33,
+            34
+        ]
+    },
+    {
+        "segment_global_id": 326,
+        "machine": "machine-3-9",
+        "segment_index": 3,
+        "start": 10662,
+        "end": 10707,
+        "gt_dimensions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            19,
+            20,
+            21,
+            22,
+            28,
+            31,
+            35,
+            36
+        ]
+    }
+]

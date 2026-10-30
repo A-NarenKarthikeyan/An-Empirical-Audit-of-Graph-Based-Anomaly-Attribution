@@ -1,0 +1,91 @@
+﻿audit_id,prompt_text,llm_response,magnitudes_correct,only_packet_sensors,no_exaggeration,overall_faithful,comment
+1,"=== ANOMALY DIAGNOSTIC REQUEST ===
+Anomaly Segment ID: 2
+Active Timesteps: 16963 to 17517 (Duration: 555 steps)
+
+=== EMPIRICAL EVIDENCE (Top-5 Attributed Sensors) ===
+  - Sensor_30 (Rank #1): IG Score = 6.18% | Observed Window Mean = 0.0072 (range: [0.0000, 0.7095]) | Normal Historical Baseline = 0.0002 +/- 0.0013 | Z-Score Shift = +5.45 std
+  - Sensor_10 (Rank #2): IG Score = 0.79% | Observed Window Mean = 0.0609 (range: [0.0158, 1.0000]) | Normal Historical Baseline = 0.0055 +/- 0.0025 | Z-Score Shift = +21.77 std
+  - Sensor_9 (Rank #3): IG Score = 0.50% | Observed Window Mean = 0.0324 (range: [0.0024, 1.0000]) | Normal Historical Baseline = 0.0203 +/- 0.0100 | Z-Score Shift = +1.21 std
+  - Sensor_24 (Rank #4): IG Score = 0.30% | Observed Window Mean = 0.0493 (range: [0.0043, 1.0000]) | Normal Historical Baseline = 0.0101 +/- 0.0044 | Z-Score Shift = +8.86 std
+  - Sensor_6 (Rank #5): IG Score = 0.11% | Observed Window Mean = 0.9317 (range: [0.4564, 1.0000]) | Normal Historical Baseline = 0.9135 +/- 0.0380 | Z-Score Shift = +0.48 std
+
+=== STATISTICAL CONFIDENCE CONTEXT ===
+Attribution Confidence Context:
+  - Instance Concentration: These top-5 sensors account for 7.88% of the model's total Integrated Gradients attribution signal.
+  - Statistical Calibration: At 90% nominal coverage level (criterion rho = 0.80, alpha = 0.10), the calibrated prediction set size is 28 of 38 sensors, with empirical held-out marginal coverage of 91.67% (SD: 3.08%).
+
+=== CRITICAL INSTRUCTIONS ===
+1. From the 5 sensors listed in EMPIRICAL EVIDENCE, identify and output ONLY the sensor IDs that you judge to be the true root causes of the anomaly based on their empirical deviations.
+2. DO NOT include sensors that show normal or near-baseline behavior. If only 1 or 2 sensors are driving the anomaly, list ONLY those.
+3. DO NOT mention, infer, or hallucinate any sensor IDs outside this set of 5.
+4. State the confidence level exactly as given in the STATISTICAL CONFIDENCE CONTEXT.
+5. Return your diagnostic strictly as a valid JSON object matching the schema below.
+
+=== OUTPUT FORMAT (JSON ONLY) ===
+{
+  ""root_cause_sensors"": [list of integer sensor IDs that you judge to be actual root causes],
+  ""explanation"": ""concise technical rationale explaining why the cited sensors are root causes based strictly on the observed z-score shifts"",
+  ""confidence_statement"": ""exact replication of statistical confidence statement from above""
+}
+","Sensor_30, Sensor_10, and Sensor_24 each show large positive Z‑Score shifts (+5.45, +21.77, +8.86 std respectively) and observed means far exceeding their normal baselines, indicating they are the primary drivers of the anomaly.",Yes,Yes,Yes,Yes,
+2,"=== ANOMALY DIAGNOSTIC REQUEST ===
+Anomaly Segment ID: 6
+Active Timesteps: 24679 to 24682 (Duration: 4 steps)
+
+=== EMPIRICAL EVIDENCE (Top-5 Attributed Sensors) ===
+  - Sensor_9 (Rank #1): IG Score = 88.27% | Observed Window Mean = 0.0532 (range: [0.0000, 0.7123]) | Normal Historical Baseline = 0.0266 +/- 0.0165 | Z-Score Shift = +1.61 std
+  - Sensor_13 (Rank #2): IG Score = 3.39% | Observed Window Mean = 0.0656 (range: [0.0064, 0.8646]) | Normal Historical Baseline = 0.0203 +/- 0.0100 | Z-Score Shift = +4.53 std
+  - Sensor_14 (Rank #3): IG Score = 1.56% | Observed Window Mean = 0.0919 (range: [0.0137, 0.9078]) | Normal Historical Baseline = 0.0512 +/- 0.0156 | Z-Score Shift = +2.60 std
+  - Sensor_11 (Rank #4): IG Score = 0.73% | Observed Window Mean = 0.1549 (range: [0.1100, 0.3040]) | Normal Historical Baseline = 0.1300 +/- 0.0395 | Z-Score Shift = +0.63 std
+  - Sensor_16 (Rank #5): IG Score = 0.71% | Observed Window Mean = 0.1702 (range: [0.1285, 0.3168]) | Normal Historical Baseline = 0.1458 +/- 0.0391 | Z-Score Shift = +0.63 std
+
+=== STATISTICAL CONFIDENCE CONTEXT ===
+Attribution Confidence Context:
+  - Instance Concentration: These top-5 sensors account for 94.67% of the model's total Integrated Gradients attribution signal.
+  - Statistical Calibration: At 90% nominal coverage level (criterion rho = 0.80, alpha = 0.10), the calibrated prediction set size is 28 of 38 sensors, with empirical held-out marginal coverage of 91.67% (SD: 3.08%).
+
+=== CRITICAL INSTRUCTIONS ===
+1. From the 5 sensors listed in EMPIRICAL EVIDENCE, identify and output ONLY the sensor IDs that you judge to be the true root causes of the anomaly based on their empirical deviations.
+2. DO NOT include sensors that show normal or near-baseline behavior. If only 1 or 2 sensors are driving the anomaly, list ONLY those.
+3. DO NOT mention, infer, or hallucinate any sensor IDs outside this set of 5.
+4. State the confidence level exactly as given in the STATISTICAL CONFIDENCE CONTEXT.
+5. Return your diagnostic strictly as a valid JSON object matching the schema below.
+
+=== OUTPUT FORMAT (JSON ONLY) ===
+{
+  ""root_cause_sensors"": [list of integer sensor IDs that you judge to be actual root causes],
+  ""explanation"": ""concise technical rationale explaining why the cited sensors are root causes based strictly on the observed z-score shifts"",
+  ""confidence_statement"": ""exact replication of statistical confidence statement from above""
+}
+","Sensor_13 shows the highest Z‑score shift (+4.53 σ), indicating a extreme deviation from its baseline, while Sensor_14 (+2.60 σ) and Sensor_9 (+1.61 σ) also exhibit significant upward shifts, together representing the primary drivers of the anomaly.",Yes,Yes,No,No,The +1.61 std shift is described as significant and a primary driver; that overstates the packet evidence.
+3,"=== ANOMALY DIAGNOSTIC REQUEST ===
+Anomaly Segment ID: 14
+Active Timesteps: 15925 to 15973 (Duration: 49 steps)
+
+=== EMPIRICAL EVIDENCE (Top-5 Attributed Sensors) ===
+  - Sensor_30 (Rank #1): IG Score = 39.28% | Observed Window Mean = 0.4372 (range: [0.0000, 0.9900]) | Normal Historical Baseline = 0.0067 +/- 0.0635 | Z-Score Shift = +6.78 std
+  - Sensor_13 (Rank #2): IG Score = 9.99% | Observed Window Mean = 0.0127 (range: [0.0000, 1.0000]) | Normal Historical Baseline = 0.0000 +/- 0.0065 | Z-Score Shift = +1.94 std
+  - Sensor_20 (Rank #3): IG Score = 7.54% | Observed Window Mean = 0.0410 (range: [0.0026, 0.9218]) | Normal Historical Baseline = 0.0098 +/- 0.0307 | Z-Score Shift = +1.01 std
+  - Sensor_32 (Rank #4): IG Score = 3.90% | Observed Window Mean = 0.0042 (range: [0.0000, 0.3333]) | Normal Historical Baseline = 0.0009 +/- 0.0172 | Z-Score Shift = +0.20 std
+  - Sensor_34 (Rank #5): IG Score = 3.33% | Observed Window Mean = 0.0743 (range: [0.0208, 0.4444]) | Normal Historical Baseline = 0.0699 +/- 0.0321 | Z-Score Shift = +0.14 std
+
+=== STATISTICAL CONFIDENCE CONTEXT ===
+Attribution Confidence Context:
+  - Instance Concentration: These top-5 sensors account for 64.03% of the model's total Integrated Gradients attribution signal.
+  - Statistical Calibration: At 90% nominal coverage level (criterion rho = 0.80, alpha = 0.10), the calibrated prediction set size is 28 of 38 sensors, with empirical held-out marginal coverage of 91.67% (SD: 3.08%).
+
+=== CRITICAL INSTRUCTIONS ===
+1. From the 5 sensors listed in EMPIRICAL EVIDENCE, identify and output ONLY the sensor IDs that you judge to be the true root causes of the anomaly based on their empirical deviations.
+2. DO NOT include sensors that show normal or near-baseline behavior. If only 1 or 2 sensors are driving the anomaly, list ONLY those.
+3. DO NOT mention, infer, or hallucinate any sensor IDs outside this set of 5.
+4. State the confidence level exactly as given in the STATISTICAL CONFIDENCE CONTEXT.
+5. Return your diagnostic strictly as a valid JSON object matching the schema below.
+
+=== OUTPUT FORMAT (JSON ONLY) ===
+{
+  ""root_cause_sensors"": [list of integer sensor IDs that you judge to be actual root causes],
+  ""explanation"": ""concise technical rationale explaining why the cited sensors are root causes based strictly on the observed z-score shifts"",
+  ""confidence_statement"": ""exact replication of statistical confidence statement from above""
+}
+","Sensor_30 exhibits a Z-Score shift of +6.78 std, far beyond normal baseline, indicating a strong deviation. Sensor_13 shows a Z-Score shift of +1.94 std, also significantly above baseline, contributing notable attribution. These two sensors dominate the Integrated Gradients signal and drive the anomaly.",Yes,Yes,No,No,The +1.94 std shift is called significantly above baseline and a driver; that wording overstates the modest shift.

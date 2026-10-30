@@ -1,0 +1,5 @@
+containment_rho,nominal_coverage,alpha,full_pool_q_hat,q_hat_fraction_of_38,mean_minimal_prefix,held_out_coverage_mean,held_out_coverage_sd,held_out_coverage_95ci
+1.0,0.9,0.1,36,0.9474,15.81,0.9247,0.0306,"[0.8648, 0.9846]"
+1.0,0.8,0.2,31,0.8158,15.81,0.8171,0.0433,"[0.7322, 0.9020]"
+0.8,0.9,0.1,28,0.7368,12.68,0.9167,0.0308,"[0.8564, 0.9771]"
+0.8,0.8,0.2,24,0.6316,12.68,0.8196,0.0449,"[0.7316, 0.9076]"

@@ -1,0 +1,53 @@
+STAGE S6 CACHE & API VERIFICATION CHECK
+============================================================
+Model Evaluated: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
+Timestamp: 2026-10-27T12:16:55.095566
+Total Segments Evaluated: 82
+Fresh API Calls: 164
+Cache Hits: 0
+
+SAMPLE PROMPT / RESPONSE PAIRS (3 timestamped):
+------------------------------------------------------------
+
+--- PAIR #1 (2026-10-27T11:27:30.522799) [Machine: machine-1-1, Seg: 1] ---
+PROMPT:
+=== ANOMALY DIAGNOSTIC REQUEST ===
+Anomaly Segment ID: 1
+Active Timesteps: 15849 to 16368 (Duration: 520 steps)
+
+=== EMPIRICAL EVIDENCE (Top-5 Attributed Sensors) ===
+  - Sensor_13 (Rank #1): IG Score = 76.00% | Observed Window Mean = 0.0506 (range: [0.0000, 0.9041]) | Normal Historical Baseline = 0...
+
+RESPONSE:
+{
+  "root_cause_sensors": [13, 10, 34, 25, 9],
+  "explanation": "Sensor_13 (+1.45 std), Sensor_10 (+7.55 std), Sensor_25 (+4.20 std), Sensor_9 (+1.02 std) and Sensor_34 (+0.11 std) show significant z-score shifts from their normal baselines, indicating anomalous telemetry behavior.",
+  "confidence_s...
+
+--- PAIR #2 (2026-10-27T11:28:05.349461) [Machine: machine-1-1, Seg: 2] ---
+PROMPT:
+=== ANOMALY DIAGNOSTIC REQUEST ===
+Anomaly Segment ID: 2
+Active Timesteps: 16963 to 17517 (Duration: 555 steps)
+
+=== EMPIRICAL EVIDENCE (Top-5 Attributed Sensors) ===
+  - Sensor_34 (Rank #1): IG Score = 84.41% | Observed Window Mean = 0.0306 (range: [0.0000, 1.0000]) | Normal Historical Baseline = 0...
+
+RESPONSE:
+{
+  "root_cause_sensors": [34, 30, 33, 10, 9],
+  "explanation": "Sensor_34 shows a Z-Score shift of +306.11 std, indicating an extreme deviation from its normal baseline, while Sensor_33 (+141.95 std) and Sensor_30 (+21.77 std) also exhibit significant upward shifts, identifying these high‑z‑score s...
+
+--- PAIR #3 (2026-10-27T11:28:46.655524) [Machine: machine-1-1, Seg: 6] ---
+PROMPT:
+=== ANOMALY DIAGNOSTIC REQUEST ===
+Anomaly Segment ID: 6
+Active Timesteps: 24679 to 24682 (Duration: 4 steps)
+
+=== EMPIRICAL EVIDENCE (Top-5 Attributed Sensors) ===
+  - Sensor_9 (Rank #1): IG Score = 88.27% | Observed Window Mean = 0.0656 (range: [0.0064, 0.8646]) | Normal Historical Baseline = 0.02...
+
+RESPONSE:
+{
+  "root_cause_sensors": [9, 13, 14, 11, 16],
+  "explanation": "Sensor_9 shows the highest Z-Score shift (+4.53 std), indicating a strong deviation from its normal baseline, while Sensor_13 (+1.61 std), Sensor_14 (+2.60 std), Sensor_11 (+0.63 std), and Sensor_16 (+0.63 std) also exhibit elevated Z-...

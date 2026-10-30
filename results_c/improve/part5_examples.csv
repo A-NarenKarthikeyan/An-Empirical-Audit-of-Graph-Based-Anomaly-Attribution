@@ -1,0 +1,11 @@
+audit_id,segment_global_id,machine,strict_scorer_verdict,sensor,z,wording,lexicon_hits
+5,10,machine-1-2,False,18,1.49,"Sensor_18 exhibits the largest positive Z-Score shift (+1.49 std) relative to its normal baseline, indicating a significant deviation, while the remaining top sensors show smaller but still positive Z-Score shifts, collectively contributing to the anomaly attribution.",significant
+9,313,machine-3-7,False,30,1.29,"Sensor_30 exhibits a significant positive z-score shift (+1.29 std), indicating an outlier contribution, while the remaining top-5 sensors show negligible or non-significant shifts, implying their values are within expected variation.",significant
+14,246,machine-3-2,False,6,1.27,Sensor_6 exhibits a large negative Z-Score shift (-1.27 std) indicating values well below baseline; these opposing deviations collectively drive the anomaly.,large
+17,1,machine-1-1,False,9,1.02,"Sensor_13 (+1.45 std), Sensor_10 (+7.55 std), Sensor_25 (+4.20 std), Sensor_9 (+1.02 std) and Sensor_34 (+0.11 std) show significant z-score shifts from their normal baselines, indicating anomalous telemetry behavior.",significant
+17,1,machine-1-1,False,13,1.45,"Sensor_13 (+1.45 std), Sensor_10 (+7.55 std), Sensor_25 (+4.20 std), Sensor_9 (+1.02 std) and Sensor_34 (+0.11 std) show significant z-score shifts from their normal baselines, indicating anomalous telemetry behavior.",significant
+17,1,machine-1-1,False,34,0.11,"Sensor_34 (+0.11 std) show significant z-score shifts from their normal baselines, indicating anomalous telemetry behavior.",significant
+21,147,machine-2-4,False,14,0.69,"Sensor_14 shows a +0.69 std Z-Score shift, indicating a significant deviation from its normal baseline, while the other four sensors exhibit minimal Z-Score shifts within expected variation.",significant
+86,86,machine-1-7,False,16,1.26,"Sensor_16 shows a +1.26 std Z-Score shift, indicating a substantial deviation from its normal baseline, while",substantial
+166,166,machine-2-5,False,13,1.18,"Sensor_13 exhibit Z-Score shifts of +1.18 std, indicating significant elevation above baseline;",significant
+186,186,machine-2-5,False,1,1.05,"Sensor_1 shows a +1.05 std Z-Score shift, indicating a large deviation above baseline;",large
